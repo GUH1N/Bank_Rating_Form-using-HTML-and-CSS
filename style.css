@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    background-color:darkcyan;
+    color: white;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 1200px;
+    background-color:rgb(152, 170, 171);
+    padding: 15px 15px 100px;
+    margin-top: 50px;
+}
+
+label{
+    margin-bottom:15px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+hr.new{
+    border: 1px solid black;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: 350px;
+    margin-top: 2px;
+}
